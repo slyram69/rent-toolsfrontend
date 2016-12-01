@@ -30,9 +30,11 @@
     </head>
     <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    /<!-- Brand and toggle get grouped for better mobile display -->
+<!-- <nav class="navbar navbar-default">
+  <div class="container-fluid"> -->
+  <div id="entireNavbar">
+   <!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> -->
+    <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -40,26 +42,48 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Rental Tools</a>
+      <a class="navbar-brand" href="/">Rental Tools</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Power Tools</a></li>
+        <li class="active">
+          <a href="/power">Power Tools <span class="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a href="/pneumatic">Pneumatic Tools</a>
+        </li>
+        <li>
+            <a href="/machine">Machine Tools</a>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown" data-toggle="dropdown">Menu<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">drop 1</a></li>
+              <li><a href="#">drop 2</a></li>
+            </ul>
+        </li>
+
+      <!-- </ul>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="views/power">Action</a></li>
-            <li><a href="Ladders"Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li>
+              <a href="views/power">Action</a>
+            </li>
+            <li>
+              <a href="Ladders"Another action</a>
+              </li>
+            <li>
+              <a href="#">Something else here</a>
+            </li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
             <li><a href="#">One more separated link</a></li>
           </ul>
         </li>
-      </ul>
+      </ul> -->
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">

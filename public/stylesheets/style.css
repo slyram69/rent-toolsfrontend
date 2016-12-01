@@ -9,7 +9,7 @@ box-sizing: border: box;
 .bgImage {
    display: table;
    width: 100%;
-   height: 400px;
+   height: 600px;
    background-image: url(http://previews.123rf.com/images/nk2549/nk25491302/nk2549130200083/18092817-Carpentry-construction-hardware-tools-collage-with-wood-plank-texture-background-Vector-template-des-Stock-Vector.jpg);
    background-size: cover;
    background-position: center center;
@@ -44,11 +44,11 @@ vertical-align: middle;
    padding: 1.5% 7%;
    font-size: 14px;
 }
-label {
+/*label {
    display: inline-block;
    margin: 0 0 5px 0;
    padding: 0;
-}
+}*/
 @media only screen and (max-width : 768px) {
 .bgImage {
 height: 300px;
@@ -75,4 +75,20 @@ width: 96%;
 float: none;
 width: 30%;
 margin-top: 8px;
+}
+
+.dropdown-toggle{
+    color: white;
+ /*background-color: #CFB055  !important;*/
+ /*gold*/
+}
+
+.dropdown-toggle:hover{
+    color: #CFB055  !important;
+ /*background-color: #CFB055  !important;*/
+
+}
+
+.dropdown-menu {
+    min-width: 200px;
 }
